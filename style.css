@@ -1,0 +1,61 @@
+body{
+    width: 1400px;
+    text-align: center;
+
+    font-family: 'Titillium Web', sans-serif;
+    background: rgb(239, 247, 255);
+}
+
+#description{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#main{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar{
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+#navbar a{
+    text-decoration-line: none;
+}
+
+#title{
+    font-size: 45px;
+}
+
+.tile{
+    stroke: rgb(239, 247, 255);
+    stroke-width: 1px;
+}
+
+#tooltip{
+    font-size: 12px;
+    background: rgba(195, 121, 245, 0.897);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.rectText{
+    font-size: 10px;
+    pointer-events: none;   /*ignores the top layer foreignObject, allows for pointer event for layer underneath*/
+}
+
+#legend{
+    margin-top: 25px;
+    padding-left: 75px;
+}
+
+.legend-item{
+    width: 15px;
+    height: 15px;
+}

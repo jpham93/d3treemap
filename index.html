@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3 Tree Map</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--D3 CDN-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!--D3 Hierarchy for Treemap-->
+    <script src="https://d3js.org/d3-hierarchy.v1.min.js"></script>
+
+    <!--Interpolating Color Ranges-->
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+
+    <!--Imported Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+    <!--FCC Testing Suite-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+    <div id="navbar">
+            <a href="#" id="games" onclick="renderPage(gamesURL)">Video Game Data Set</a> |
+            <a href="#" id="movies" onclick="renderPage(moviesURL)">Movies Data Set</a> |
+            <a href="#" id="kickstart" onclick="renderPage(ksURL)">Kickstarter Data Set</a>
+    </div>
+    <div id="main">
+        <h1 id="title"></h1>
+        <p id="description"></p>
+    </div>
+
+    <!--JS-->
+    <script src="./script.js"></script> <!--set it later in the page, because JS needs to access DOM-->
+</body>
+</html>
